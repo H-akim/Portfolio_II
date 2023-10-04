@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080808">
+    <link rel="icon" href="images/portfolio_icon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio_II</title>
+    <script src="https://kit.fontawesome.com/42b0a34f06.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark" ></i>
+                </ul>
+                <i class="fa-solid fa-bars fa-beat" ></i>
+            </nav>
+            <div class="header_text">
+                <p>UI/UX designer</p>
+                <h1>hi, i'm <span>kevin</span><br> jen from australia</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--   about   -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="images/user.png" alt="user">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="sub_title">about me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias illum ex veritatis, voluptatem odit magni, placeat voluptates soluta modi at assumenda quos, veniam a hic! Optio voluptatem, neque doloribus sapiente libero enim sint exercitationem. Provident officia error laudantium, vel placeat animi natus voluptatem autem corrupti, obcaecati beatae officiis quibusdam voluptate.</p>
+                    <div class="tab_title">
+                        <p class="tab_links active_link" title="click me" onclick="opentab('skills')">skills</p>
+                        <p class="tab_links" title="click me" onclick="opentab('experience')">experience</p>
+                        <p class="tab_links" title="click me" onclick="opentab('education')">education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br> designing web/app interfaces</li>
+                            <li><span>web development</span><br> web app development</li>  
+                            <li><span>app development</span><br> building android/iOS apps</li>  
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>2021 - current</span><br> uI/uX design training at et institute</li>
+                            <li><span>2019 - 2021</span><br> team lead at starapp lLC.</li>  
+                            <li><span>2018 - 2019</span><br> uI/uX design executive at coin digital ltd.</li> 
+                            <li><span>2017 - 2018</span><br> internship at ekart ecommerce.</li>   
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br> uI/uX design training at et institute</li>
+                            <li><span>2018</span><br> mBA from mIT bangalore</li>  
+                            <li><span>2017</span><br> bBA from iSM bangalore</li>  
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  services  -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub_title">my services</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code fa-beat"></i>
+                    <h2>web design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ullam eum ipsa. Repudiandae, saepe odio?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple fa-beat"></i>
+                    <h2>uI/uX design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ullam eum ipsa. Repudiandae, saepe odio?</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store fa-beat"></i>
+                    <h2>app design</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus ullam eum ipsa. Repudiandae, saepe odio?</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--   Portfolio   -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub_title">my work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>the app connects you to the talented people around the world. download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.jpg" alt="work-2">
+                    <div class="layer">
+                        <h3>see more app</h3>
+                        <p>the app connects you to the talented people around the world. download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>online shopping app</h3>
+                        <p>the app connects you to the talented people around the world. download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+    <!--   contact   -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact_left">
+                    <h1 class="sub_title">contact me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane fa-beat"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-square-phone fa-shake"></i>0951357645</p>
+                    <div class="social_icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" class="btn btn2" download="">download cV</a>
+                </div>
+                <div class="contact_right">
+                    <form >
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2 btn3">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <p>made by <i class="fa-solid fa-fire" style="color: #ff0000;" title="Fire"></i> with working hard.</p> 
+        </div>
+    </div>
+
+
+    <script src="sctipt.js"></script>
+</body>
+</html>
